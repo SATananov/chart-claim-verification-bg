@@ -1,0 +1,86 @@
+{
+  "audit_name": "Step 014 Final Submission Audit",
+  "project": "chart-claim-verification-bg",
+  "policy": "Stored artifacts only; the final test model is not loaded or evaluated.",
+  "status": "PASS",
+  "passed_checks": 15,
+  "failed_checks": 0,
+  "failed_check_names": [],
+  "checks": [
+    {
+      "name": "required_files",
+      "status": "PASS",
+      "details": "All 18 required files are present."
+    },
+    {
+      "name": "notebook_sequence",
+      "status": "PASS",
+      "details": "Notebook prefixes 00 through 10 are present exactly once."
+    },
+    {
+      "name": "frozen_validation_metrics",
+      "status": "PASS",
+      "details": "Frozen validation metrics match the selected baseline model."
+    },
+    {
+      "name": "final_test_metrics",
+      "status": "PASS",
+      "details": "Final test metrics match the documented one-time evaluation."
+    },
+    {
+      "name": "generalization_gap",
+      "status": "PASS",
+      "details": "Validation-to-test gaps are arithmetically consistent."
+    },
+    {
+      "name": "final_confusion_matrix",
+      "status": "PASS",
+      "details": "Confusion matrix totals 54 examples with 42 correct predictions."
+    },
+    {
+      "name": "row_level_test_reports",
+      "status": "PASS",
+      "details": "Prediction and error reports contain 54 rows, 42 correct and 12 errors."
+    },
+    {
+      "name": "one_time_test_marker",
+      "status": "PASS",
+      "details": "Completion marker confirms the frozen one-time test evaluation."
+    },
+    {
+      "name": "documentation_consistency",
+      "status": "PASS",
+      "details": "README and final report contain the final metrics and research comparison."
+    },
+    {
+      "name": "final_notebook_guard",
+      "status": "PASS",
+      "details": "Final notebook contains the marker guard before prediction and no error output."
+    },
+    {
+      "name": "git_repository",
+      "status": "PASS",
+      "details": "Project is inside a Git repository."
+    },
+    {
+      "name": "git_branch",
+      "status": "PASS",
+      "details": "Current branch is main."
+    },
+    {
+      "name": "git_upstream_sync",
+      "status": "PASS",
+      "details": "main is synchronized with its upstream (behind=0, ahead=0)."
+    },
+    {
+      "name": "unrelated_local_changes",
+      "status": "PASS",
+      "details": "No unrelated local changes were found outside Step 014 files."
+    },
+    {
+      "name": "ignored_generated_artifacts",
+      "status": "PASS",
+      "details": "No trained Keras model or generated chart PNG is tracked by Git."
+    }
+  ]
+}
