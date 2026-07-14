@@ -1,0 +1,10 @@
+{
+  "status": "completed",
+  "completed_at_utc": "2026-07-14T14:26:19.461788+00:00",
+  "model": "Final Keras multimodal neural network",
+  "config_name": "baseline",
+  "test_size": 54,
+  "accuracy": 0.7777777777777778,
+  "macro_f1": 0.7696969696969697,
+  "test_split_policy": "evaluated once after model selection"
+}

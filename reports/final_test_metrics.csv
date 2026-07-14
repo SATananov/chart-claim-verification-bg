@@ -1,0 +1,2 @@
+model,config_name,accuracy,macro_f1,evaluation_split,test_size
+Final Keras multimodal neural network,baseline,0.7777777777777778,0.7696969696969697,test,54
