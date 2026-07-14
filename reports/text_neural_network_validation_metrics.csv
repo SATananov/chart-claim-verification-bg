@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,evaluation_split
+Keras text neural network,0.8333333333333334,0.8278943278943279,validation
