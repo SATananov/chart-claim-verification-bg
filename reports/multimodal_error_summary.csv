@@ -1,0 +1,3 @@
+true_label,predicted_label,error_count
+refuted,supported,3
+supported,not_enough_information,3

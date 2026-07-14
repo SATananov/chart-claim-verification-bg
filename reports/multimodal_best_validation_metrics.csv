@@ -1,0 +1,2 @@
+model,config_name,accuracy,macro_f1,evaluation_split
+Tuned Keras multimodal neural network,baseline,0.8888888888888888,0.8885003885003885,validation

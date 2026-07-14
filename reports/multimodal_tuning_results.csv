@@ -1,0 +1,4 @@
+config_name,embedding_dimension,text_units,combined_units,dropout_rate,learning_rate,accuracy,macro_f1,epochs_completed,evaluation_split
+baseline,32,32,64,0.3,0.001,0.8888888888888888,0.8885003885003885,20,validation
+lower_dropout,32,32,64,0.15,0.001,0.8888888888888888,0.8885003885003885,20,validation
+wider_fusion,48,48,96,0.3,0.0007,0.8333333333333334,0.8278943278943279,20,validation
