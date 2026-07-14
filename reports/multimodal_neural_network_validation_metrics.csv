@@ -1,0 +1,2 @@
+model,accuracy,macro_f1,evaluation_split
+Keras multimodal neural network,0.8888888888888888,0.8885003885003885,validation
