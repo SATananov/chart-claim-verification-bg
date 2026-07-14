@@ -1,0 +1,11 @@
+chart_group_id,row_count,split
+window_2020_2023,27,test
+window_2022_2025,27,test
+window_2019_2022,27,train
+window_2019_2023,36,train
+window_2019_2024,45,train
+window_2020_2024,36,train
+window_2020_2025,45,train
+window_2021_2024,27,train
+window_2021_2025,36,train
+window_2019_2025,54,validation
