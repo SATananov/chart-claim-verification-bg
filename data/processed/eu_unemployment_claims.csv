@@ -1,0 +1,19 @@
+claim_id,chart_id,first_year,second_year,claim_text,label,claim_type
+claim_001,eu_unemployment_2019_2025,2019,2020,The EU unemployment rate was higher in 2020 than in 2019.,supported,true_comparison
+claim_002,eu_unemployment_2019_2025,2019,2020,The EU unemployment rate was lower in 2020 than in 2019.,refuted,false_comparison
+claim_003,eu_unemployment_2019_2025,2019,2020,The EU unemployment rate was higher in 2026 than in 2020.,not_enough_information,outside_chart_range
+claim_004,eu_unemployment_2019_2025,2020,2021,The EU unemployment rate was lower in 2021 than in 2020.,supported,true_comparison
+claim_005,eu_unemployment_2019_2025,2020,2021,The EU unemployment rate was higher in 2021 than in 2020.,refuted,false_comparison
+claim_006,eu_unemployment_2019_2025,2020,2021,The EU unemployment rate was higher in 2026 than in 2021.,not_enough_information,outside_chart_range
+claim_007,eu_unemployment_2019_2025,2021,2022,The EU unemployment rate was lower in 2022 than in 2021.,supported,true_comparison
+claim_008,eu_unemployment_2019_2025,2021,2022,The EU unemployment rate was higher in 2022 than in 2021.,refuted,false_comparison
+claim_009,eu_unemployment_2019_2025,2021,2022,The EU unemployment rate was higher in 2026 than in 2022.,not_enough_information,outside_chart_range
+claim_010,eu_unemployment_2019_2025,2022,2023,The EU unemployment rate was lower in 2023 than in 2022.,supported,true_comparison
+claim_011,eu_unemployment_2019_2025,2022,2023,The EU unemployment rate was higher in 2023 than in 2022.,refuted,false_comparison
+claim_012,eu_unemployment_2019_2025,2022,2023,The EU unemployment rate was higher in 2026 than in 2023.,not_enough_information,outside_chart_range
+claim_013,eu_unemployment_2019_2025,2023,2024,The EU unemployment rate was lower in 2024 than in 2023.,supported,true_comparison
+claim_014,eu_unemployment_2019_2025,2023,2024,The EU unemployment rate was higher in 2024 than in 2023.,refuted,false_comparison
+claim_015,eu_unemployment_2019_2025,2023,2024,The EU unemployment rate was higher in 2026 than in 2024.,not_enough_information,outside_chart_range
+claim_016,eu_unemployment_2019_2025,2024,2025,The EU unemployment rate was higher in 2025 than in 2024.,supported,true_comparison
+claim_017,eu_unemployment_2019_2025,2024,2025,The EU unemployment rate was lower in 2025 than in 2024.,refuted,false_comparison
+claim_018,eu_unemployment_2019_2025,2024,2025,The EU unemployment rate was higher in 2026 than in 2025.,not_enough_information,outside_chart_range
