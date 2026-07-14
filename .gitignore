@@ -1,7 +1,12 @@
-﻿.venv/
+.venv/
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
 .pytest_cache/
 .env
 .vscode/
-*.pyc
+models/*.keras
+models/*.h5
+reports/figures/*.png
+Thumbs.db
+.DS_Store
