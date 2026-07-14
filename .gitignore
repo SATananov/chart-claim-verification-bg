@@ -8,5 +8,6 @@ __pycache__/
 models/*.keras
 models/*.h5
 reports/figures/*.png
+data/generated/charts/**/*.png
 Thumbs.db
 .DS_Store
