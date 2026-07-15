@@ -279,3 +279,22 @@ verification dataset.
 
 Stefan Tananov  
 GitHub: [SATananov](https://github.com/SATananov)
+
+## Visual Demonstration
+
+A separate Streamlit application demonstrates the frozen multimodal model through a visual interface:
+
+**Repository:**  
+https://github.com/SATananov/chart-claim-verification
+
+The application allows the user to:
+
+- select a packaged statistical chart or upload an image;
+- enter a short claim in English;
+- classify the claim as `supported`, `refuted`, or `not_enough_information`;
+- inspect the confidence scores for all three classes;
+- review the model architecture and stored evaluation results.
+
+The visual application is a presentation layer only. It does not retrain the model and does not evaluate the final test set again.
+
+Because the training dataset is small and domain-specific, predictions for arbitrary uploaded charts should be treated as demonstrations rather than reliable universal fact-checking results.
